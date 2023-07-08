@@ -1,3 +1,3 @@
-module main
+module kakulatir
 
 go 1.19

@@ -1,8 +1,8 @@
-run = ["./main"]
+run = ["./kakulatir"]
 
-entrypoint = "main.go"
-hidden = ["main"]
-compile = ["go", "build", "-o", "main", "."]
+entrypoint = "kakulatir.go"
+hidden = ["kakulatir"]
+compile = ["go", "build", "-o", "kakulatir", "."]
 
 [languages.go]
 pattern = "**/*.go"
